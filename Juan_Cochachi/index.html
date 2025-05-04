@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Jose Cochachi Taza | Portafolio Personal</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Fondo animado con partículas -->
+    <div id="particles-js"></div>
+    <div class="background-overlay"></div>
+    
+    <!-- Navbar Glassmorphism -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="logo-icon"><i class="fas fa-code"></i></span>
+                <span class="logo-text">JCochachi</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mas-info">Más Sobre Mí</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#mis-proyectos">Mis Proyectos</a>
+                        </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero con efecto parallax -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-content">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-duration="800">
+                        <h1 class="display-3 fw-bold mb-4">
+                            <span class="greeting">Hola, soy</span>
+                            <span class="text-primary nombre-animado">Juan Jose Cochachi Taza</span>
+                        </h1>
+                        <p class="lead mb-4">Desarrollador web creativo apasionado por crear experiencias digitales impactantes.</p>
+                        <div class="hero-buttons">
+                            <a href="#mis-proyectos" class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-info-circler me-2"></i>Mis proyectos
+                            </a>
+                            <a href="#sobre-mi" class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-user me-2"></i>Conóceme
+                            </a>
+                            <a href="#mas-info" class="btn btn-outline-light btn-lg">
+                                <i class="fas fa-info-circle me-2"></i>Más sobre mí
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-duration="800">
+                        <div class="profile-img-container">
+                            <div class="hexagon">
+                                <div class="hexagon-inner">
+                                    <img src="img/WhatsApp Image 2025-04-19 at 7.54.14 PM.jpeg" alt="Juan Jose Cochachi Taza" class="img-fluid profile-img">
+                                </div>
+                            </div>
+                            <div class="tech-icons">
+                                <i class="fab fa-html5 html"></i>
+                                <i class="fab fa-css3-alt css"></i>
+                                <i class="fab fa-js-square js"></i>
+                                <i class="fab fa-bootstrap bootstrap"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#sobre-mi" class="scroll-link">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="py-5 sobre-mi-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Sobre <span class="text-primary">Mí</span></h2>
+                    <div class="divider mx-auto"></div>
+                    <p class="section-subtitle">Conoce más acerca de mi experiencia y habilidades</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card glass-card p-5 rounded">
+                        <h3 class="mb-4"><i class="fas fa-id-card me-3 text-primary"></i>Mis Datos Personales</h3>
+                        <ul class="list-unstyled personal-info">
+                            <li class="mb-3">
+                                <i class="fas fa-user me-2 text-primary"></i>
+                                <strong>Nombre:</strong> Juan Jose Cochachi Taza
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-birthday-cake me-2 text-primary"></i>
+                                <strong>Edad:</strong> 18 años
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-map-marker-alt me-2 text-primary"></i>
+                                <strong>Ubicación:</strong> Huancayo, Chupaca, Perú
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-envelope me-2 text-primary"></i>
+                                <strong>Email:</strong> 60085464@continental.edu.pe
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-phone me-2 text-primary"></i>
+                                <strong>Teléfono:</strong> +51 974 406 239
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-graduation-cap me-2 text-primary"></i>
+                                <strong>Carrera:</strong> Ingeniería de Sistemas e informática. 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left">
+                    <div class="skills-card glass-card p-5 rounded">
+                        <h3 class="mb-4"><i class="fas fa-code me-3 text-primary"></i>Mis Habilidades</h3>
+                        
+                        <!-- Habilidad 1: HTML/CSS -->
+                        <div class="skill-item mb-4">
+                            <div class="skill-info d-flex justify-content-between align-items-center mb-2">
+                                <div class="d-flex align-items-center">
+                                    <i class="fab fa-html5 me-2"></i>
+                                    <h6 class="mb-0">HTML/CSS</h6>
+                                </div>
+                                <span class="text-white">50%</span>
+                            </div>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar gradient-1" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Habilidad 2: JavaScript -->
+                        <div class="skill-item mb-4">
+                            <div class="skill-info d-flex justify-content-between align-items-center mb-2">
+                                <div class="d-flex align-items-center">
+                                    <i class="fab fa-js me-2"></i>
+                                    <h6 class="mb-0">JavaScript</h6>
+                                </div>
+                                <span class="text-white">70%</span>
+                            </div>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar gradient-2" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Habilidad 3: Bootstrap -->
+                        <div class="skill-item mb-4">
+                            <div class="skill-info d-flex justify-content-between align-items-center mb-2">
+                                <div class="d-flex align-items-center">
+                                    <i class="fab fa-bootstrap me-2"></i>
+                                    <h6 class="mb-0">Bootstrap</h6>
+                                </div>
+                                <span class="text-white">60%</span>
+                            </div>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar gradient-3" role="progressbar" style="width: 80%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Habilidad 4: Diseño UI/UX -->
+                        <div class="skill-item mb-4">
+                            <div class="skill-info d-flex justify-content-between align-items-center mb-2">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-paint-brush me-2"></i>
+                                    <h6 class="mb-0">Diseño UI/UX</h6>
+                                </div>
+                                <span class="text-white">60%</span>
+                            </div>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar gradient-4" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Sección Más Información -->
+    <section id="mas-info" class="py-5 info-adicional-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Más <span class="text-primary">Sobre Mí</span></h2>
+                    <div class="divider mx-auto"></div>
+                    <p class="section-subtitle">Mis pasiones, metas y filosofía personal</p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Primer cuadro - Mis Pasiones -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-left" data-aos-delay="100">
+                    <div class="about-box glass-card h-100">
+                        <div class="about-box-header">
+                            <div class="icon-box">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h3>Mis Pasiones</h3>
+                        </div>
+                        <div class="about-box-content">
+                            <p>Me apasiona el desarrollo web creativo y la implementación de diseños innovadores que mejoren la experiencia del usuario.</p>
+                            <p>Disfruto creando soluciones tecnológicas que impacten positivamente en la vida de las personas.</p>
+                            <div class="passion-items">
+                                <span class="passion-item"><i class="fas fa-music"></i> Música</span>
+                                <span class="passion-item"><i class="fas fa-paint-brush"></i> Arte</span>
+                                <span class="passion-item"><i class="fas fa-running"></i> Deportes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Segundo cuadro - Mis Metas -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-left" data-aos-delay="200">
+                    <div class="about-box glass-card h-100">
+                        <div class="about-box-header">
+                            <div class="icon-box">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h3>Mis Metas</h3>
+                        </div>
+                        <div class="about-box-content">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-point"></div>
+                                    <div class="timeline-content">
+                                        <h5>2023-2024</h5>
+                                        <p>Realizar grandes paginas con un buen diseño</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-point"></div>
+                                    <div class="timeline-content">
+                                        <h5>2030-2035</h5>
+                                        <p>Liderar proyectos innovadores en mi área</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-point"></div>
+                                    <div class="timeline-content">
+                                        <h5>2027+</h5>
+                                        <p>Mentorar a nuevos desarrolladores</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tercer cuadro - Mi Inspiración -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-left" data-aos-delay="300">
+                    <div class="about-box glass-card h-100">
+                        <div class="about-box-header">
+                            <div class="icon-box">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h3>Mi Inspiración</h3>
+                        </div>
+                        <div class="about-box-content">
+                            <p>Me inspira la tecnología que resuelve problemas reales y mejora la calidad de vida.</p>
+                            <div class="quote-box">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p class="quote-text">La tecnología es mejor cuando une a las personas</p>
+                                <p class="quote-author">- Matt Mullenweg</p>
+                            </div>
+                            <div class="inspiration-list">
+                                <div class="inspiration-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Impacto social positivo</span>
+                                </div>
+                                <div class="inspiration-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Evolución digital constante</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cuarto cuadro - Mi Filosofía -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-right" data-aos-delay="100">
+                    <div class="about-box glass-card h-100">
+                        <div class="about-box-header">
+                            <div class="icon-box">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3>Mi Filosofía</h3>
+                        </div>
+                        <div class="about-box-content">
+                            <div class="philosophy-principles">
+                                <div class="principle">
+                                    <i class="fas fa-star"></i>
+                                    <span>Trabajo bien hecho</span>
+                                </div>
+                                <div class="principle">
+                                    <i class="fas fa-star"></i>
+                                    <span>Atención al detalle</span>
+                                </div>
+                                <div class="principle">
+                                    <i class="fas fa-star"></i>
+                                    <span>Mejora continua</span>
+                                </div>
+                            </div>
+                            <div class="philosophy-quote">
+                                <p>"No hay atajos para cualquier lugar que valga la pena ir"</p>
+                                <p class="author">- Beverly Sills</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quinto cuadro - Mis Valores -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-right" data-aos-delay="200">
+                    <div class="about-box glass-card h-100">
+                        <div class="about-box-header">
+                            <div class="icon-box">
+                                <i class="fas fa-hands-helping"></i>
+                            </div>
+                            <h3>Mis Valores</h3>
+                        </div>
+                        <div class="about-box-content">
+                            <ul class="values-list">
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Integridad en cada aspecto</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Creatividad en soluciones</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Perseverancia ante desafíos</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Colaboración en equipo</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Aprendizaje continuo</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sexto cuadro - Proyectos Futuros -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-right" data-aos-delay="300">
+                    <div class="about-box glass-card h-100">
+                        <div class="about-box-header">
+                            <div class="icon-box">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h3>Proyectos Futuros</h3>
+                        </div>
+                        <div class="about-box-content">
+                            <div class="project-card">
+                                <h5><i class="fas fa-laptop-code"></i> Plataforma de aprendizaje</h5>
+                                <p>Para facilitar programación a principiantes</p>
+                            </div>
+                            <div class="project-card">
+                                <h5><i class="fas fa-hands-helping"></i> Gestión comunitaria</h5>
+                                <p>Para organizaciones sin fines de lucro</p>
+                            </div>
+                            <div class="project-card">
+                                <h5><i class="fas fa-user-graduate"></i> Conectar mentores</h5>
+                                <p>Plataforma para jóvenes en tecnología</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  MIS PROYECTOS -->
+    <section id="mis-proyectos" class="py-5 info-adicional-section">
+    <section id="proyectos" class="py-5 proyectos-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Mis <span class="text-primary">Proyectos</span></h2>
+                    <div class="divider mx-auto"></div>
+                    <p class="section-subtitle">Mis trabajos y creaciones </p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Proyecto 1 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="proyecto-card glass-card h-100">
+                        <div class="proyecto-img-container">
+                            <img src="img/Captura de pantalla 2025-04-30 180756.png" alt="Proyecto 1" class="img-fluid">
+                            <div class="proyecto-overlay">
+                                <a href="#" class="btn btn-outline-light btn-sm">Ver detalles</a>
+                            </div>
+                        </div>
+                        <div class="proyecto-info p-3">
+                            <h4>Página web de Hospedaje</h4>
+                            <p class="text-muted">Implementé uso de plantillas para poder relaizar el diseño de la pagina web y así solgré realizar aquella pagina web.</p>
+                            <div class="tech-tags">
+                                <span class="badge bg-primary">HTML</span>
+                                <span class="badge bg-primary">CSS</span>
+                                <span class="badge bg-primary">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 2 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="proyecto-card glass-card h-100">
+                        <div class="proyecto-img-container">
+                            <img src="img/Captura de pantalla 2025-04-30 182744.png" alt="Proyecto 2" class="img-fluid">
+                            <div class="proyecto-overlay">
+                                <a href="#" class="btn btn-outline-light btn-sm">Ver Detalles</a>
+                            </div>
+                        </div>
+                        <div class="proyecto-info p-3">
+                            <h4>Pagina web sobre información </h4>
+                            <p class="text-muted">Al ver problematicas yo entre otros colega de clase decidimos realizar una web donde se pueda dar información a travez de nuestros conocimientos</p>
+                            <div class="tech-tags">
+                                <span class="badge bg-primary">Html</span>
+                                <span class="badge bg-primary">Plataforma Front End</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 3 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="proyecto-card glass-card h-100">
+                        <div class="proyecto-img-container">
+                            <img src="img/Captura de pantalla 2025-05-04 101702.png" alt="Proyecto 3" class="img-fluid">
+                            <div class="proyecto-overlay">
+                                <a href="#" class="btn btn-outline-light btn-sm">Ver Detalles</a>
+                            </div>
+                        </div>
+                        <div class="proyecto-info p-3">
+                            <h4>Pagina web sobre Panaderia</h4>
+                            <p class="text-muted">Cuando se desarrolló esta pagina web inicialmente esto fue una tarea mas dentro de clase pero despues se convirtió en proyecto mas en mi entorno 
+                                como desarrollador web .
+                            </p>
+                            <div class="tech-tags">
+                                <span class="badge bg-primary">Html</span>
+                                <span class="badge bg-primary">Css</span>
+                                <span class="badge bg-primary">Java Script</span>
+                                <span class="badge bg-primary">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer class="py-4">
+    </footer>
+    <footer class="py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 Portafolio Cochachi Taza Juan. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="social-links">
+                        <a href="https://github.com/JuanCochachiTaza" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/CochachiTaza?t=jHDSnPdySwtVqmrgvn3-RA&s=09" class="social-link">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1nao33i r-rxcuwo r-1777fci r-m327ed r-494qqr" style="width: 1em; height: 1em; fill: currentColor;">
+                              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                            </svg>
+                          </a>
+                        <a href="https://www.instagram.com/juancochachitaza?igsh=MTV2eXVieXRhcm8xdQ==" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- JS personalizado -->
+    <script src="script.js"></script>
+</body>
+</html>
